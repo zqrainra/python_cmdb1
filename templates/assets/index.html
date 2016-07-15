@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/static/js/my_js.js"></script>
+    <title>Title</title>
+</head>
+<body>
+this is assets index page\r\nasadasdasfa
+
+{% for cpu in cpus %}
+    {{ cpu.asset.id }}
+    {{ cpu.cpu_model }}
+{% endfor %}
+</body>
+</html>
